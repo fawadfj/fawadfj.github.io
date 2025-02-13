@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesAI - Fair & Efficient Interview Notes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f0f8ff; }
+        .container { width: 80%; margin: auto; padding: 50px 0; }
+        h1 { color: #004080; }
+        p { color: #006600; font-size: 1.2em; }
+        .cta-button { background-color: #007bff; color: white; padding: 15px 30px; border: none; border-radius: 5px; font-size: 1.2em; cursor: pointer; text-decoration: none; }
+        .cta-button:hover { background-color: #0056b3; }
+        .features { text-align: left; max-width: 600px; margin: 30px auto; }
+        .feedback-form { background: white; padding: 20px; max-width: 500px; margin: auto; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        .hero-image { width: 100%; max-width: 800px; margin: 20px auto; display: block; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ensure Fair & Comfortable Interviews with NotesAI</h1>
+        <p>For recruiters who want to ensure a fair and comfortable interview process, NotesAI provides standardized templates that automatically populate with AI-transcribed notes.</p>
+        <img src="https://source.unsplash.com/800x400/?interview,meeting" alt="Interview meeting" class="hero-image">
+        <a href="#feedback" class="cta-button">Try NotesAI Beta</a>
+    </div>
+
+    <div class="container features">
+        <h2>Why NotesAI?</h2>
+        <ul>
+            <li>✅ <b>Reduce Bias & Miscommunication</b> - Standardized AI-generated notes improve fairness.</li>
+            <li>✅ <b>Enhance Technical Interviews</b> - Capture accurate details without distractions.</li>
+            <li>✅ <b>Improve Candidate Experience</b> - Ensure consistency & transparency in evaluations.</li>
+        </ul>
+    </div>
+
+    <div class="container feedback-form" id="feedback">
+        <h2>We'd Love Your Feedback!</h2>
+        <p>Help us refine NotesAI. Share your thoughts below:</p>
+        <form action="https://forms.google.com/example" method="post"> <!-- Replace with your Google Form link -->
+            <textarea name="feedback" rows="4" cols="50" placeholder="Your thoughts..."></textarea><br><br>
+            <button type="submit" class="cta-button">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
